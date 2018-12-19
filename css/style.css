@@ -81,6 +81,7 @@ button {
     padding: 1em;
     border: 1px solid lightgray;
     border-radius: 2px;
+    margin-bottom: 20px;
 }
 
 .order-modal-form textarea {
@@ -98,7 +99,7 @@ button {
 }
 
 .order-modal-form p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -520,30 +521,32 @@ button {
 
 .how-we-work {
     color: #fff;
-    height: 450px;
-    padding-bottom: 40px;
-    background: url('../images/factory.jpg') no-repeat;
+    padding: 50px 0;
+    background: url('../images/yellow-bg.jpg') no-repeat;
     background-size: cover;
+    background-position-x: right;
 }
 
 .how-we-work h2 {
-    padding: 40px 0;
+   margin-bottom: 50px;
 }
 
 .how-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .how-card {
-    text-align: center;
-    flex-basis: 25%;
-    margin: 0 15px;
+    padding: 15px;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .how-card span {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -887,21 +890,10 @@ button {
 }
 
 @media screen and (max-width: 992px) {
-    .how-cards {
-        flex-wrap: wrap;
-    }
-
-    .how-card {
-        flex-basis: 60%;
-    }
-
     .factory-bg {
         height: 100%;
     }
 
-    .how-we-work {
-        height: auto;
-    }
     .granules-photo {
         flex-basis: 40%;
     }
@@ -1011,7 +1003,7 @@ button {
     }
 
     .how-card {
-        flex-basis: 100%;
+        text-align: center;
     }
 
     .section-title {
