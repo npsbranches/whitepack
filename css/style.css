@@ -560,6 +560,7 @@ button {
 .footer {
     margin-top: -2px;
     background: #000;
+    min-height: 220px;
 }
 
 .footer * {
