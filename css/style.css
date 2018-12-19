@@ -563,7 +563,7 @@ button {
 }
 
 .footer * {
-    color: #75A445;
+    color: #fff;
 }
 
 .menu-footer {
@@ -609,7 +609,7 @@ button {
 }
 
 .menu-footer a:hover {
-    color: #fff;
+    color: #464646;
 }
 
 .footer-logo {
