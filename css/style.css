@@ -341,6 +341,13 @@ button {
     transition: .5s ease-in-out;
 }
 
+.callback-bt-2:hover {
+    background: #009D00;
+}
+
+.callback-bt-2:hover i {
+    display: block;
+}
 
 @-webkit-keyframes hoverWave {
     0% {
@@ -378,6 +385,10 @@ button {
     }
 }
 
+
+.callback-bt-2 {
+    display: none;
+}
 
 
 
@@ -1381,8 +1392,12 @@ button {
 @media screen and (max-width: 576px) {
     .callback-bt {
         bottom: 5%;
+        display: none;
     }
     
+    .callback-bt-2 {
+        display: block;
+    }
     .showcase-card {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;

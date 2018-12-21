@@ -61,7 +61,7 @@ $('.order-modal-close').click(function () {
     $('.order-modal').toggleClass('active');
 })
 
-$('.callback-bt').click(function () {
+$('#callback-bt').click(function () {
     $('.order-modal').toggleClass('active');
 })
 
