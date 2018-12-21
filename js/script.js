@@ -72,3 +72,10 @@ $('.about-slider-wrapper').owlCarousel({
     autoplayTimeout: 5000,
     animateOut: 'fadeOut'
 });
+
+$('.hero').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    dots: true
+});
