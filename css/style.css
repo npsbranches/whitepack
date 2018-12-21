@@ -473,6 +473,40 @@ button {
     margin-bottom: 20px;
 }
 
+.about-slider {
+    margin-top: 50px;
+}
+
+.about-slider-wrapper {
+    display: flex;
+}
+
+.about-slider h3 {
+    text-transform: uppercase;
+}
+
+.about-slide {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-slide-photo {
+    height: 300px;
+}
+
+.about-slide-photo img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.about-slide p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * ADVANTAGES * * * * * * * * * * * * * * * * * * * * */
 
 .advantages {
