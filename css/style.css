@@ -282,7 +282,7 @@ button {
     width: 68px;
     position: fixed;
     right: 5%;
-    bottom: 10%;
+    bottom: 5%;
     z-index: 999;
     transition: .3s;
     -webkit-animation: hoverWave linear 1s infinite;
