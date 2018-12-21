@@ -295,16 +295,15 @@ button {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .callback-bt .text-call span {
-    text-align: center;
     color: #009D00;
     opacity: 0;
     font-size: 0;
-    position: absolute;
-    right: 4px;
-    top: 22px;
     line-height: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -314,7 +313,7 @@ button {
 
 .callback-bt .text-call:hover span {
     opacity: 1;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .callback-bt:hover i {
