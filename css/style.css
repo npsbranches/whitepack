@@ -282,7 +282,7 @@ button {
     width: 68px;
     position: fixed;
     right: 5%;
-    bottom: 5%;
+    bottom: 10%;
     z-index: 999;
     transition: .3s;
     -webkit-animation: hoverWave linear 1s infinite;
@@ -1356,6 +1356,10 @@ button {
 }
 
 @media screen and (max-width: 576px) {
+    .callback-bt {
+        bottom: 5%;
+    }
+    
     .showcase-card {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
