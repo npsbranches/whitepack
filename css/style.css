@@ -1143,6 +1143,9 @@ button {
                 justify-content: center;
     }
 
+    .how-cards {
+        flex-direction: column;
+    }
    
     .showcase .wrapper {
         -webkit-box-pack: center;
