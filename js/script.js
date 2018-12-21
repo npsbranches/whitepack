@@ -48,6 +48,7 @@ $(function () {
 $('#btn-order').click(function () {
     $('.order-modal').toggleClass('active');
 })
+
 $('.btn-buy').click(function () {
     $('.order-modal').toggleClass('active');
 })
@@ -57,6 +58,10 @@ $('.order-modal-bg').click(function () {
 })
 
 $('.order-modal-close').click(function () {
+    $('.order-modal').toggleClass('active');
+})
+
+$('.callback-bt').click(function () {
     $('.order-modal').toggleClass('active');
 })
 
