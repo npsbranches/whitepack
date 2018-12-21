@@ -7,11 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Вайтпак</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> -->
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <div class="order-modal">
+        <div class="order-modal-bg"></div>
+        <div class="order-modal-form">
+            <button type="button" class="order-modal-close"><i class="fa fa-close"></i></button>
+            <form action="">
+                <h4>Запрос коммерческого предложения</h4>
+                <p>Мы перезвоним вам в течение 25 минут</p>
+                <label for="order-name">Имя</label>
+                <input type="text" id="order-name">
+                <label for="order-tel">Телефон</label>
+                <input type="tel" id="order-tel">
+                <label for="order-product">Потребность</label>
+                <textarea id="order-product" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn-green">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
     <header class="header">
         <div class="wrapper">
             <div class="header-top">
@@ -73,7 +91,8 @@
             <h2 class="section-title">Купим отходы полиэтилена</h2>
             Для получения вторичной гранулы мы закупаем сырье. Принимаем отработанную плёнку из ПВД и ПНД:
             <ul>
-                <li>1. Производственные (в виде плёнки): брак при печати на плёнках, обрезки, нереализованная продукция;</li>
+                <li>1. Производственные (в виде плёнки): брак при печати на плёнках, обрезки, нереализованная
+                    продукция;</li>
                 <li>2. Упаковка б/у: термоусадочная плёнка с паллет, магазинные сборы.</li>
             </ul>
             <div class="webuy-photo">
@@ -107,6 +126,7 @@
     </footer>
 
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
