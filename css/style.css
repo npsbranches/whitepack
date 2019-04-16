@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -612,6 +612,49 @@ button {
     object-fit: cover;
 }
 
+.hero-slide {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-links {
+    margin-left: 200px;
+    display: flex;
+}
+
+.hero-green-btn {
+    background: #45A445;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 320px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.hero-light-btn {
+    background-color: rgba(255,255,255,0.83);
+    padding: 20px;
+    height: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+}
+
+.hero-light-btn span:first-child {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #000;
+    
+}
 .hero .owl-item {
     height: 400px;
 }
@@ -1276,6 +1319,71 @@ button {
     width: 100%;
 }
 
+/* * * * * * * * * * * * * * * * * * * * * Q & A SECTION * * * * * * * * * * * * * * * * * * * * */
+
+.questions {
+    padding: 50px 0;
+}
+.questions .section-title {
+    color: #45A445;
+    margin-bottom: 20px;
+}
+
+.question-card {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.question-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer
+}
+.question-heading h5 {
+    font-size: 26px;
+    color: #333;
+    font-weight: 500;
+}
+
+.question-heading.open i {
+    transform: rotate(180deg);
+}
+
+.question-heading i {
+    color: #45A445;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.2s;
+  
+}
+
+.question-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+.question-answer p {
+    font-size: 18px;
+    color: #98a4a6;
+}
+
+@media screen and (max-width: 768px) {
+    .question-heading h5 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .question-heading h5 {
+        font-size: 16px;
+    }
+    .question-heading i {
+        font-size: 26px;
+    }
+    .question-answer p {
+        font-size: 14px;
+    }
+}
 /* * * * * * * * * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * * * * * * * */
 
 @media screen and (max-width: 1080px) {

@@ -79,3 +79,8 @@ $('.hero').owlCarousel({
     autoplay: true,
     dots: true
 });
+
+$('.question-heading').click(function() {
+    $(this).toggleClass('open').next().slideToggle();
+    $('.question-heading').not(this).removeClass('open').next().slideUp();
+})
